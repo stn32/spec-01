@@ -169,6 +169,7 @@
 
 ### Требования к БД (MySQL)
 **Схема базы данных**
+```
 `CREATE TABLE `users` (
   `id` INT PRIMARY KEY AUTO_INCREMENT,
   `email` VARCHAR(255) UNIQUE,
@@ -189,10 +190,11 @@ CREATE TABLE `transactions` (
   `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (`user_id`) REFERENCES `users`(`id`)
 );`
+```
 
 ### Оптимизации
 - Индексы для частых запросов:
-`CREATE INDEX idx_user_transactions ON `transactions` (`user_id`, `created_at`);`
+```CREATE INDEX idx_user_transactions ON `transactions` (`user_id`, `created_at`);```
 - Репликация Master-Slave для отказоустойчивости
 
 ## Нефункциональные требования
