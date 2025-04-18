@@ -82,7 +82,6 @@
 - Сервисы доставки (СДЭК).
 
 ## Технические требования
-- Backend: REST API (на базе WooCommerce).
 - База данных: синхронизация с WordPress.
 - Кэширование для ускорения работы.
 - Аналитика: Google / Yandex.
@@ -124,8 +123,8 @@
 
 ### Стек технологий:
 - Backend: Node.js (Express/Nest.js) + MySQL
-- Frontend (сайт): PHP (WooCommerce плагин)
 - Frontend (приложение): React Native
+- Сайт: PHP (WooCommerce плагин)
 - Сервер: Ubuntu + Nginx
 
 ## Функциональные требования
