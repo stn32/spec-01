@@ -93,7 +93,7 @@
 - State Management: Redux Toolkit / MobX
 
 ### Backend:
-- PHP 8.x / Laravel / Python
+- Node.js (Express/Nest.js) + MySQL
 - RESTful API
 
 ### Server:
@@ -103,7 +103,6 @@
 ### Database: 
 - Primary: MySQL
 - Caching: Redis or Memcached
-- Queue System: Laravel Queue / Redis
 
 ## Этапы разработки
 - Проектирование UI/UX (прототипы, дизайн).
